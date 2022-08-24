@@ -1,0 +1,14 @@
+@mixin centering($tipo: 'both') {
+
+    display: flex;
+
+    @if $tipo == 'vert' {
+        align-items: center;
+    } @else if $tipo == 'oriz' {
+        justify-content: center;
+    } @else if $tipo == 'both' {
+        align-items: center;
+        justify-content: center;
+    }
+
+}
