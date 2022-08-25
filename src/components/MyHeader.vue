@@ -78,7 +78,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 100px;
+        height: 10vh;
         img {
             height: 70%;
         }

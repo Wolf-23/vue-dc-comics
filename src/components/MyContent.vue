@@ -17,7 +17,7 @@ export default {
 
     section {
         background-color: #1C1C1C;
-        height: 100px;
+        height: 15vh;
         @include centering();
         h1 {
             color: #fff;

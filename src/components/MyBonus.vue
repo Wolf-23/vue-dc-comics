@@ -53,6 +53,7 @@ export default {
   @import '../styles/mixins.scss'; 
   section {
     background-color: $brand_color;
+    height: 15vh;
     ul {
       display: flex;
       justify-content: space-around;
