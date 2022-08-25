@@ -1,5 +1,9 @@
-# vue-dc-comics
+# Esercizio Boolean - Vue-DC-Comics
 
+* Nome: vue-dc-comics
+* Autore: Lupinu Riccardo
+* Data: 24/08/2022
+* Linguaggio: Vue CLI
 ## Project setup
 ```
 npm install

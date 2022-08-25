@@ -106,6 +106,9 @@ export default {
           a{
             text-decoration: none;
             color: gray;
+            &:hover {
+            color: $brand_color;
+          }
           }
         }
       }
@@ -127,6 +130,10 @@ export default {
         padding: 10px;
         text-decoration: none;
         color: white;
+        &:hover {
+          border: 2px solid #fff;
+          color: $brand_color;
+        }
       }
       .follow {
         display: flex;

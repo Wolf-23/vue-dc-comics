@@ -134,6 +134,10 @@ export default {
               .single-product {
                   width: calc(100% / 6);
                   padding: 20px 10px;
+                  &:hover {
+                    cursor: pointer;
+                    opacity: 0.5;
+                  }
                 }
           }
           .my-btn {
@@ -141,10 +145,15 @@ export default {
             a {
               text-decoration: none;
               color: #fff;
-              font-weight: 500;
+              font-weight: 600;
               font-size: 13px;
               background-color: $brand_color;
               padding: 8px 50px;
+
+              &:hover {
+                color: $brand_color;
+                background-color: #fff;
+              }
             }
           }
         }
